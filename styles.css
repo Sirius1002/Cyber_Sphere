@@ -1,0 +1,99 @@
+/* styles.css - CSS for Cloud Security Config Checker */
+
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #2c3e50, #4ca1af);
+    color: #f4f4f4;
+}
+
+/* Header Styling */
+.header {
+    background-color: #34495e;
+    padding: 1rem;
+    text-align: center;
+    color: #ecf0f1;
+    font-size: 1.8rem;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Scan Section */
+.scan-section {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.scan-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.scan-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.scan-button {
+    background: #3498db;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.scan-button:hover {
+    background: #2980b9;
+}
+
+/* Results Section */
+.results-section {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.results-section.hidden {
+    display: none;
+}
+
+.results-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.results-container {
+    font-size: 1rem;
+    text-align: left;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    overflow: auto;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #34495e;
+    color: #ecf0f1;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
